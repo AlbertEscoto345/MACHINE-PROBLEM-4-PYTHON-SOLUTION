@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 y_initial=float(input("Input projectile's initial height above ground in meters: "))
 if(y_initial==0):
     print ('Invalid input. Please try again.')
-#if(y_initial.isdigit() and y_initial!=0):
-#    pass
-#else:
-#   print ('Invalid input. Please try again.')
-#    exit()
     
 velocity=float(input("Input projectile's velocity in meters per second (m/s): "))
 firing_angle=float(input("Input projectile's angle at which it was fired with respect to the x-axis in degrees: "))
